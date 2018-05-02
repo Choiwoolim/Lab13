@@ -8,7 +8,7 @@ public class InstanceOf {							//Class name is InstanceOf. This class find the 
 		else if(friend instanceof SchoolFriend)		//else if friend is condition of Schoolfriend type
 			((SchoolFriend)friend).SchoolFriend();	//Call SchoolFriend method.
 		else										//else condition
-			friend.JustFriend();					//Call JustFriend method.
+			friend.justFriend();					//Call JustFriend method.
 
 
 	}
